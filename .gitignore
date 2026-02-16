@@ -5,3 +5,4 @@ dist/
 .tmp/
 **/.tmp/
 .DS_Store
+**/webpack.statistics*.html
