@@ -1,6 +1,6 @@
 {
   "name": "diagonal-stripe-bar-chart",
-  "description": "Power BI custom bar chart visual rendered on canvas with diagonal stripe modes.",
+  "description": "EDG Chart Visual for Power BI rendered on canvas with diagonal stripe modes.",
   "version": "1.0.0.0",
   "repository": {
     "type": "git",

@@ -1,4 +1,4 @@
-# Diagonal Stripe Bar Chart (Power BI Custom Visual)
+# EDG Chart Visual (Power BI Custom Visual)
 
 This repository contains a Power BI custom visual project at:
 

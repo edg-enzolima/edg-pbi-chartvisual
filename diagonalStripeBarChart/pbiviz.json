@@ -1,7 +1,7 @@
 {
     "visual": {
         "name": "diagonalStripeBarChart",
-        "displayName": "Diagonal Stripe Bar Chart",
+        "displayName": "EDG Chart Visual",
         "guid": "diagonalStripeBarChart02FA55E4AD714F089807212128B91CF5",
         "visualClassName": "Visual",
         "version": "1.0.0.0",
