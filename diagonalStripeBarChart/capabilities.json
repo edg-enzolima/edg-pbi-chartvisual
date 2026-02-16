@@ -1,0 +1,67 @@
+{
+    "dataRoles": [
+        {
+            "displayName": "X axis",
+            "name": "category",
+            "kind": "Grouping"
+        },
+        {
+            "displayName": "Y axis",
+            "name": "measure",
+            "kind": "Measure"
+        }
+    ],
+    "objects": {
+        "appearance": {
+            "properties": {
+                "barColor": {
+                    "type": {
+                        "fill": {
+                            "solid": {
+                                "color": true
+                            }
+                        }
+                    }
+                },
+                "stripeMode": {
+                    "type": {
+                        "enumeration": [
+                            {
+                                "displayName": "All bars",
+                                "value": "all"
+                            },
+                            {
+                                "displayName": "Forecast",
+                                "value": "forecast"
+                            }
+                        ]
+                    } 
+                }
+            }
+        }
+    },
+    "dataViewMappings": [
+        {
+            "categorical": {
+                "categories": {
+                    "for": {
+                        "in": "category"
+                    },
+                    "dataReductionAlgorithm": {
+                        "top": {}
+                    }
+                },
+                "values": {
+                    "select": [
+                        {
+                            "bind": {
+                                "to": "measure"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ],
+    "privileges": []
+}
